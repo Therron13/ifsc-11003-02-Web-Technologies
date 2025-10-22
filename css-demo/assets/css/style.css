@@ -20,6 +20,26 @@ html {
   margin:20px auto;
 }
 
+.img-right{
+  float:right;
+  margin:10px 0 10px 20px;
+  border: 1px solid #ccc;
+  padding:10px;
+}
+
+.img-right{
+  float:left;
+  margin:10px 20 10px 0;
+  border: 1px solid #ccc;
+  padding:10px;
+}
+
+.img-center{
+  display:block;
+  margin:20px auto;
+  border: 2px solid #ccc;
+  padding:10px;
+}
 /*---------------Responsive Images---------------*/
 
 img{
@@ -86,10 +106,156 @@ header.primary nav a:hover{
 }
 
 
+
+
+#intro h2{
+  color:lightblue;
+  border-bottom:1px dotted #000;
+}
+
+
+
+#content{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  gap:10px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding:20px 0;
+  margin: 30px auto 30px auto;
+}
+
+#content .post{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  padding:10px;
+  font-size:8rem;
+}
+
+#content .post figure{
+  margin:0;
+}
+
+#content time.post-date, figcaption{
+  text-transform:capitalize;
+  font-size:.6rem;
+}
+
+#content a{
+  color:lightblue;
+  transition:.4s
+}
+
+#content a:hover{
+  text-decoration:none;
+}
+
+#practice h2{
+  color:lightblue;
+  border-bottom:1px dotted #cccccc;
+}
+
+#practice a{
+  color:lightblue;
+}
+
+#practice a:hover{
+  text-decoration:none;
+}
+
+#practice h3{
+ border-left: 7.5px solid lightblue;
+ padding:7.5px;
+}
+
+#practice table{
+  width:100%;
+  border:1px solid #ccc;
+  border-collapse:collapse;
+}
+#practice caption{
+  font-weight:bold;
+  font-size:1.2rem;
+  margin:10px;
+}
+#practice tr:nth-child(even){
+  background-color:rgba(0,0,0,0.04)
+}
+
+#practice tr:hover{
+  background-color:rgba(0,0,0,0.1)
+}
+
+#practice th{
+  background-color: #172635;
+  color: #000;
+  padding:7.5px
+}
+#practice td{
+  border:1px solid #c8c8c8
+  padding:5px;
+}
+
+
+
+
+aside[role="complementary"]{
+ background-color: #172635
+ color:#ffffff;
+  padding: 40px 0;
+  
+}
+
+aside .container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  gap:40px;
+}
+
+aside .container a{
+  color:#ffffff;
+}
+
+
+aside .container a:hover{
+  text-decoration:none;
+}
+
+
+aside .container a last-child{
+  color:#ffffff;
+  display:block;
+  text-align: right;
+  margin-top:20px
+}
+
+aside .widget footer{
+  display:none;
+}
+
+#colophon{
+  background-color: #3b638b;
+  padding:5px
+  text-align:center;
+  font-weight:bold;
+  color:#ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
 .container{
   background-color:transparent;
   width:80vw;
-  max-width:960px;
+  width:960px;
   margin:20px auto;
 }
 
