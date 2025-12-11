@@ -27,7 +27,7 @@ header{
 }
 /* the button */
 input {
-  display: none;
+  display: block;
 }
 .button {
   position: relative;
